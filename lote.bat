@@ -41,8 +41,6 @@ python Arroyo/condicionalsimple10.py 89 76 48 90
 python Arroyo/condicionalsimple10.py 45 78 98 79
 
 
-
-
 python Arroyo/condicionaldoble1.py 10 8 7 18
 python Arroyo/condicionaldoble1.py 8 5 18 19
 python Arroyo/condicionaldoble1.py 13 17 16 13
@@ -104,7 +102,7 @@ python Arroyo/condicionaltriple2.py 78 46 98 76
 python Arroyo/condicionaltriple2.py 65 87 98 89
 python Arroyo/condicionaltriple2.py 98 87 79 68
 
-03:
+
 python Arroyo/condicionaltriple3.py 34 87
 python Arroyo/condicionaltriple3.py 67 46
 python Arroyo/condicionaltriple3.py 89 32
