@@ -1,0 +1,38 @@
+import os
+
+#notas en base 20
+#declarar variables
+alumno,nota1,nota2,nota3,nota4="",0.0,0.0,0.0,0.0
+
+#INPUT
+alumno=os.sys.argv[1]
+nota1=int(os.sys.argv[2])
+nota2=int(os.sys.argv[3])
+nota3=int(os.sys.argv[4])
+nota4=int(os.sys.argv[5])
+
+#PROCESSING
+nota_final=int((nota1+nota2+nota3+nota4)/4)
+
+#OUPUT
+print(" NOTAS DEL CURSO DE MATEMATICAS")
+print(" El alumno: ", alumno)
+print("obtubo las siguientes notas")
+print("primera nota: ", nota1)
+print("segunda nota: ", nota2)
+print("tercera nota: ", nota3)
+print("cuarta nota: ", nota4)
+print("nota final: ", nota_final )
+print("COMENTARIO:")
+
+#condicional multiple
+#SI el pomedio es mayor a 17 felicitar al estudiante
+#SI el pomedio esta entre las notas de 14 y 17 decirle que esta en proceso
+#SI el pomedio es menor que 14 insistir que debe esforzarse
+if(nota_final>17):
+    print("FELICITACONES HAS OBTENIDO UN MARAVILLOSO PUNTAJE")
+if(nota_final>=14 and nota_final<=17):
+    print("ESTA EN PROCESO")
+if(nota_final<14):
+    print("DEBE ESFORZARSE")
+#fin_if
